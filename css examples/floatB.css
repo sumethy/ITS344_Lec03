@@ -1,0 +1,27 @@
+main {
+    width: 500px;
+    margin: auto;
+    background: gray;
+    /* when all elements contained in an 
+    element are floated, the height of the
+    containing becomes 0, set overflow to 
+    auto to avoid this */
+    overflow: auto;
+}
+
+nav {
+    width: 100px;
+    float: right;
+}
+
+/* remove defaults on the p elements inside the nav */
+nav p {
+    margin: 0;
+    padding: 0;
+}
+
+p.content {
+    margin: 0; /* zero out the default margin */
+    float: left;
+    width: 400px;
+}

@@ -1,0 +1,24 @@
+/* the * is the universal selector
+it selects everything */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    float: left;
+    background:darkgray;
+}
+
+main {
+    background:lightgray;
+}
+
+p {
+	font-family: 'Denk One', sans-serif;
+}
+
+footer {
+    background:gray;
+    clear: both;
+}
